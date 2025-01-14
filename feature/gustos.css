@@ -1,0 +1,28 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #5363bd, #556cd6);
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
+.row img {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.row img:hover {
+    transform: scale(1.2);
+    border-color: #556cd6;
+}
+
+footer {
+    background-color: #222;
+    color: #ddd;
+    font-size: 14px;
+}
